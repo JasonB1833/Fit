@@ -1,0 +1,91 @@
+/* Global styles for the document */
+body {
+    background-color:azure;
+    color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(9, 189, 234);
+    color: #221811;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+nav a:link {
+    
+    text-decoration: none; /* Remove underline for unvisited links if desired */
+  }
+
+/* Styles for the header element */
+header {
+    text-align: center;
+    background-color:rgb(179, 251, 251);
+    color: black; 
+    padding-bottom: 1em;
+}
+
+
+/* Styles for the h1 element */
+h1 {
+    line-height: 200%;
+}
+
+/* Styles for the h2 element */
+h2 {
+    color: black;
+}
+
+/* Styles for the nav element */
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Styles for the footer element */
+footer {
+    background-color: rgb(9, 189, 234);
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    padding-top: 0.5em;
+}
+
+
+/* Styles for Centering element */
+#container {
+    width: 80%;
+    background-color: rgb(179, 251, 251);
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Styles for the table */
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-spacing: 0;
+  }
+  
+  /* Styles for table cells (td and th) */
+  td, th {
+    padding: 10px;
+  }
+  
+  /* Styles for odd table rows (alternate rows) */
+  tr:nth-of-type(odd) {
+    background-color: rgb(9, 189, 234);
+  }
+  /* Styles for the form element for narrow viewports */
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 20%;
+}
+
+/* Add margin to input and textarea elements for spacing */
+input, textarea {
+    margin-bottom: 0.5em;
+}
+
+  

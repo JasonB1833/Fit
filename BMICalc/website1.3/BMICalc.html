@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Modern Health and you</title>
+    <link rel="stylesheet" type="text/css" href="Project.css">
+</head>
+
+
+<nav>
+    <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+    <a href="BMICalc.html">BMI Calculator</a>&nbsp;&nbsp;&nbsp;
+    <a href="NutrInfo.html">Nutrition Information</a>&nbsp;&nbsp;&nbsp;
+    <a href="About.html">About</a>
+</nav>
+<div id="container">
+    <header>
+        <h1>BMI Calculator</h1>
+    </header>
+    
+  
+    <main>
+        <div class="calculator">
+            
+            
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" placeholder="Enter your weight" required>
+                
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" placeholder="Enter your height" required>
+                
+                <label for="age">Age:</label>
+                <input type="number" id="age" placeholder="Enter your age" required>
+                <br>
+                <button onclick="calculateBMI()">Calculate BMI</button>
+            
+            <div id="result"></div>
+        </div>
+
+            <script>
+                function calculateBMI() {
+                        var weight = document.getElementById('weight').value;
+                        var height = document.getElementById('height').value;
+                        var age = document.getElementById('age').value;
+
+                        if (weight > 0 && height > 0 && age > 0) {
+                            var bmi = (weight / ((height / 100) * (height / 100))).toFixed(2);
+                            displayResult(bmi, age);
+                        } else {
+                            alert('Please enter valid weight, height, and age values.');
+                        }
+                }
+
+                function displayResult(bmi, age) {
+                    var resultElement = document.getElementById('result');
+                    resultElement.innerHTML = 'Your BMI is: ' + bmi + ' (Age: ' + age + ' years)';
+                }
+
+            </script>
+        
+        
+            <h2> But what does this number mean?</h2>
+
+        <p> Your BMI can help you determine how many calories you should be consuming per day.
+            this will help you achieve your goals by giving you a guideline on how you can achieve your goals.
+        </p>
+            <p>to learn more about how you could utilize this, check out our <a href="NutrInfo.html">Nutrition Information</a>&nbsp;page. (currently under maintenance) </p>
+        <br>
+       
+        
+    </main>
+    </div>  
+</body>
+<footer>
+    <a href="mailto:JasonBerroa@live.seminolestate.edu">JasonBerroa@live.seminolestate.edu</a>
+    
+</footer>
+
+</html>

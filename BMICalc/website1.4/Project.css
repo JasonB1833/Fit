@@ -1,0 +1,157 @@
+/* Global styles for the document */
+body {
+    background-color:azure;
+    color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/1562413.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: rgb(0 30 92);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    border-bottom: 2px solid #00c2ff;
+    position: relative
+}
+nav a:link {
+    color: azure;
+    text-decoration: none; /* Remove underline for unvisited links if desired */
+  }
+nav a:visited{
+    color:azure;
+}
+nav ul ul{ position: absolute;
+background-color:rgb(53 212 253);
+padding: 0;
+text-align: left;
+display: none;
+}
+
+nav li:hover ul { display: block; }
+  /* Styles for the header element */
+header {
+    text-align: center;
+    background-color:rgba(179, 251, 251, 0);
+    color: black; 
+    padding-bottom: 1em;
+}
+
+
+/* Styles for the h1 element */
+h1 {
+    line-height: 200%;
+}
+
+/* Styles for the h2 element */
+h2 {
+    color: black;
+}
+
+/* Styles for the nav element */
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Styles for the footer element */
+footer {
+    background-color: rgb(0 30 92);
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    padding-top: 0.5em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer a:link{
+    color: azure;
+    
+}
+
+
+/* Styles for Centering element */
+#container {
+    width: 80%;
+    background-color:rgba(179, 251, 251, 0.527);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Styles for the table */
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-spacing: 0;
+  }
+  
+  /* Styles for table cells (td and th) */
+  td, th {
+    padding: 10px;
+  }
+  
+  /* Styles for odd table rows (alternate rows) */
+  tr:nth-of-type(odd) {
+    background-color: rgb(9, 189, 234);
+  }
+  /* Styles for the form element for narrow viewports */
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 20%;
+}
+
+/* Add margin to input and textarea elements for spacing */
+input, textarea {
+    margin-bottom: 0.5em;
+}
+
+  
+/* styles for the Bmi calc*/
+.calculator {
+    
+    padding: 2px;
+    border-radius: 8px;
+    
+    text-align: center;
+}
+  
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 30%;
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(9, 189, 234);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(4, 159, 197);
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+/* end  of styles for the Bmi calc*/

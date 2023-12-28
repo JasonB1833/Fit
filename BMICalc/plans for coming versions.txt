@@ -1,0 +1,16 @@
+﻿1.6 plans
+
+-working on script for nutrition info segment
+-add completed script into nutrition page
+-change nutrition info page name to something more generalized?
+-change bmi calc to BMR calc complete with TDEE (incorrect formula)
+-add daily macro intake for user depending on goals to BMI calc page
+
+1.7 plans 
+-add pictures where appropriate to nutrition info page
+-adjust css styles to beautify new photos on page
+-add pictures to about page
+-delete stupid fake news letter
+-adjust css styles to beautify new photos on page
+
+
