@@ -1,0 +1,7 @@
+------- Website Changes--------
+
+-reformatting the website to act as a portfolio/resume site
+-changing scripting and content to better suit change 1
+-reformatting about page to be the main portfolio page
+-changed the name of the BMI calculator page to "tools" to better suit it
+-began changes to JS  in regards to the "tools" page

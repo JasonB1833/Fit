@@ -1,0 +1,23 @@
+﻿1.6 plans
+
+-change nutrition info page name to something more generalized?
+-change bmi calc to BMR calc complete with TDEE (incorrect formula)
+-add daily macro intake for user depending on goals to BMI calc page
+-delete stupid fake news letter
+
+1.7 plans 
+-add pictures where appropriate to nutrition info page
+-adjust css styles to beautify new photos on page
+-add pictures to about page
+-delete stupid fake news letter
+-adjust css styles to beautify new photos on page
+
+----------CHANGE OF PLANS-----------
+
+1.00 Rework
+-reformat to double as a portfolio/ resume site
+-change about section to main resume page
+-complete JS changes for functionality
+-delete stupid fake news letter
+
+
